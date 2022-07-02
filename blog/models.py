@@ -1,9 +1,6 @@
-from operator import mod
-from statistics import mode
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
-from traitlets import default
 
 STATUS = ((0, 'Draft'), (1, 'Published'))
 
